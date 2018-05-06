@@ -28,19 +28,21 @@ body {
 
         .header{
             text-align: center;
-            width: 768px;
-            height: 49px;
-
-            padding-top: 10px;
+            width: 864px;
+            height: 90px;    
             padding-bottom: 5px;
+
+
+            
         }
 
         .nav{
-            text-align: center;
-            width: 768px;
-            height: 49px;
-            padding-top: 5px;
-            padding-bottom: 5px;
+             text-align: center;
+             width: 864px;
+             height: 90px;
+             padding-top: 5px;
+             margin-top: 10px;
+            
         }
 
         .aside {
@@ -65,8 +67,8 @@ body {
             
 
             .article {
-                float: left;
-                width: 340px;
+                margin: auto;
+                width: 475px;
                 height: 210px;
                 text-align: center;
                 color: #ebebeb;
@@ -74,21 +76,26 @@ body {
             }
            
             .p1header {
+                margin: auto;
                 text-align: center;
                 color: #777;
                 background-color: #ebebeb;
+                width: 400px;
+                height: 50px;
             }
 
             .p2header {
+                margin: auto;
                 text-align: center;
                 color: #777;
-                background-color: #ebebeb
+                background-color: #ebebeb;
+                width: 400px;
+                height: 50px;
             }
 
              .footer {
                 text-align: center;
-                width: 768px;
+                width: 864px;
                 height: 28px;
-                margin-top: 120px;
                 padding-bottom: 50px;
             }
