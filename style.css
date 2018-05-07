@@ -5,6 +5,7 @@ body {
     background-color:#777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 
     }
 
@@ -30,7 +31,8 @@ body {
             text-align: center;
             width: 864px;
             height: 90px;    
-            padding-bottom: 5px;
+            padding-top: 5px;
+            margin: 10px auto;
 
 
             
@@ -41,16 +43,17 @@ body {
              width: 864px;
              height: 90px;
              padding-top: 5px;
-             margin-top: 10px;
+             margin: 10px auto;
             
         }
 
         .aside {
             float: right;
+            padding-left: 15px;
             text-align: center;
             height: 280px;
             width: 330px;
-            margin-top: 20px;
+            margin-top: 12px;
         }
             
             
@@ -73,9 +76,11 @@ body {
                 text-align: center;
                 color: #ebebeb;
                 background-color: #777;
+                padding-top: 5px;
             }
            
             .p1header {
+                padding-top: 5px;
                 margin: auto;
                 text-align: center;
                 color: #777;
@@ -85,6 +90,8 @@ body {
             }
 
             .p2header {
+                padding-top: 5px;
+                padding-bottom: 20px;
                 margin: auto;
                 text-align: center;
                 color: #777;
@@ -94,8 +101,11 @@ body {
             }
 
              .footer {
+                padding-top: 5px;
                 text-align: center;
                 width: 864px;
-                height: 28px;
-                padding-bottom: 50px;
+                height: 78px;
+                margin: 10px auto;
+                margin-bottom: 90px;
+                margin-top: 20px;
             }
