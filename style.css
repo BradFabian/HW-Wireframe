@@ -6,22 +6,19 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin: auto;
+        }
 
-    }
+    
 
-    .center {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        height: 500px;
+    
 
-
-    }
+    
     .header,
     .nav,
     .section,
     .aside,
-    .footer {
+    footer {
 
         background-color: #ebebeb;
 
@@ -29,63 +26,50 @@ body {
         }
 
         .header{
-            text-align: center;
-            width: 864px;
-            height: 90px;    
-            padding-top: 5px;
-            margin: 10px auto;
+           margin-top: 10px;
+           margin-bottom: 10px;
+               
+            padding-top: 20px;
+            padding-bottom: 40px;
 
 
             
         }
 
         .nav{
-             text-align: center;
-             width: 864px;
-             height: 90px;
-             padding-top: 5px;
-             margin: 10px auto;
-            
+             margin-top: 5px;
+             margin-bottom: 5px;
+             padding-top: 20px;
+             padding-bottom: 40px;
         }
 
-        .flex-container {
-            display: flex;
-            flex-direction: column;
-          }
+        .section{
 
-        .aside {
-            float: right;
-            padding-left: 15px;
-            text-align: center;
-            height: 280px;
-            width: 330px;
-            margin-top: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 495px;
+            height: 250px;
+            float:left;
+            background-color: #ebebeb;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            margin-right: 20px;
         }
 
-       
-            .section
-             {  clear: left;
-                text-align: center;
-                height: 280px;
-                width: 495px;
                 
-                
-            }
-
-            
-
             .article {
-                margin: auto;
-                width: 475px;
-                height: 210px;
-                text-align: center;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding-top: 15px;
+                padding-bottom: 10px;
                 color: #ebebeb;
                 background-color: #777;
-                padding-top: 5px;
+                
+            
             }
 
-            #art {
-                margin-bottom: 5px;
+            #article-text {
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
             }
            
             .p1header {
@@ -112,12 +96,20 @@ body {
                 height: 50px;
             }
 
-             .footer {
-                padding-top: 5px;
+            .aside {
+                float: right;
+                margin: 15px auto;
                 text-align: center;
-                width: 864px;
-                height: 78px;
-                margin: 10px auto;
-                margin-bottom: 90px;
-                margin-top: 20px;
+                height: 250px;
+                width: 445px;
+                
+            }
+    
+
+             footer {
+                padding-top: 20px;
+                padding-bottom: 40px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                clear:both;
             }
