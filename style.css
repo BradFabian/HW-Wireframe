@@ -10,7 +10,8 @@ body {
     }
 
     .center {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         width: 90%;
         height: 500px;
 
@@ -60,10 +61,11 @@ body {
 
 
         .section
-             {
+             {  clear: left;
                 text-align: center;
                 height: 280px;
                 width: 495px;
+                
                 
             }
 
@@ -78,9 +80,14 @@ body {
                 background-color: #777;
                 padding-top: 5px;
             }
+
+            #art {
+                margin-bottom: 5px;
+            }
            
             .p1header {
-                padding-top: 5px;
+                padding-top: 10px;
+                padding-bottom: 10px;
                 margin: auto;
                 text-align: center;
                 color: #777;
@@ -90,9 +97,11 @@ body {
             }
 
             .p2header {
-                padding-top: 5px;
-                padding-bottom: 20px;
-                margin: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
                 text-align: center;
                 color: #777;
                 background-color: #ebebeb;
