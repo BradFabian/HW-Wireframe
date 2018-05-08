@@ -48,6 +48,11 @@ body {
             
         }
 
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+          }
+
         .aside {
             float: right;
             padding-left: 15px;
@@ -56,11 +61,9 @@ body {
             width: 330px;
             margin-top: 12px;
         }
-            
-            
 
-
-        .section
+       
+            .section
              {  clear: left;
                 text-align: center;
                 height: 280px;
